@@ -1,0 +1,48 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: auto 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background: url(img.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 4rem;
+    padding: 1rem;
+    color: black;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+    /* sides topbottom */
+}
+
+.buffer {
+    height: 8rem;
+}
+
+hr {
+    margin: 20px auto;
+    color: #0D6EFD;
+    border: 3px solid #0D6EFD;
+    max-width: 65px;
+    opacity: 1;
+}
